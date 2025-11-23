@@ -1,0 +1,116 @@
+@font-face{
+    font-family: roboto;
+    src: url(assets/Roboto.zip);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.header-container {
+    /* background-color: aqua; */
+    width: 1150px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #FFEFBA 0%, #FFFFFF 100%);
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* background-color: #FFA751; */
+    width: 1050px;
+    margin: auto;
+}
+
+.logomain {
+    margin-left: 20px;
+}
+
+.nav-1 {
+    /* background-color: rgb(78, 75, 75); */
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.nav-ul1 ul {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-button button, .head-btn button {
+    background: linear-gradient(90deg, #FFE259, #FFA751 100%);
+    padding: 12px 26px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+.nav-logo {
+    /* background-color: #FFA751; */
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo-img img {
+    width: 35px;
+    height: 35px;
+}
+
+.header-bottom {
+    /* background-color: #585454; */
+    /* height: 450px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    margin: auto;
+}
+
+.head-right {
+   
+    width: 500px;
+    height: 350px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.heading h2 {
+    font-size: 40px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase !important;
+    
+}
+
+.head-para p{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.head-left img{
+        height: 500px;
+        width: 500px;
+        margin-top: 10px;
+}
